@@ -1,6 +1,4 @@
 import React from 'react'
-import Hero from './Component/Hero'
-import HomeCards from './Component/HomeCards'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Courses from './Pages/Courses'
@@ -16,8 +14,6 @@ const App = () => {
    <Route path='/AddCourses' element={<AddCourses />} />
 
   </Routes>
-  <Hero title="Become Full-stack Web Developer" subTitle=" Learn the skills you need to become a professional web developer."/>
-  <HomeCards/>
   </>
   )
 }

@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
     //  <!-- ✅ Navbar -->
-  <nav class="bg-[#382C83] border-b border-white fixed top-0 left-0 w-full z-50">
+  <nav className="bg-[#382C83] border-b border-white fixed top-0 left-0 w-full z-500">
     <div class="flex justify-between items-center px-5 py-3">
       {/* <!-- Logo --> */}
-      <img class="w-10" src="/logo.png" alt="logo" />
+      <img className="w-10" src="/logo.png" alt="logo" />
 
       {/* <!-- Links --> */}
       <ul id="menu" class="hidden md:flex text-white space-x-6">
