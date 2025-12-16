@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -10,21 +11,16 @@ const NavBar = () => {
 
       {/* <!-- Links --> */}
       <ul id="menu" class="hidden md:flex text-white space-x-6">
-        <li><a href="index.html" class="bg-black px-1 hover:text-gray-300">Home</a></li>
-        <li><a href="courses.html" class="hover:text-gray-300">Courses</a></li>
-        <li><a href="addcourse.html" class="hover:text-gray-300">Add Courses</a></li>
+        <li> <Link to="/">Home</Link> </li>
+        <li> <Link to="/Courses">Courses</Link> </li>
+        <li> <Link to="/AddCourses">Add Courses</Link> </li>
+        
       </ul>
 
       {/* <!-- Menu Toggle (Mobile) --> */}
       <ion-icon id="menu-toggle" class="text-white text-3xl md:hidden cursor-pointer" name="menu-outline"></ion-icon>
     </div>
 
-    {/* <!-- Mobile Menu --> */}
-    <ul id="mobile-menu" class="hidden flex-col bg-indigo-700 text-white space-y-2 p-4 md:hidden">
-      <li><a href="index.html" class="block hover:text-gray-300">Home</a></li>
-      <li><a href="courses.html" class="block hover:text-gray-300">Courses</a></li>
-      <li><a href="addcourse.html" class="block hover:text-gray-300">Add Courses</a></li>
-    </ul>
   </nav>
   )
 }
