@@ -1,4 +1,4 @@
-[
+{"CourseList":[
     {
       "id": "1",
       "title": "HTML & CSS",
@@ -89,3 +89,4 @@
       }
     }
   ]
+}
