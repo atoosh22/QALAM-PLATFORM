@@ -17,8 +17,8 @@ const App = () => {
     <Route path='/' element={<HomePage/>}/>
     <Route path='/CoursesPage' element={<CoursesPage/>}/>
     <Route path='/AddCourses' element={<AddCourses/>}/>
-    <Route path='/EditCoursepage/:id' element={<EditCoursePage/>}/>
-    <Route path='/CoursesPage/:id' element={<CourseDetails/>}/>
+    <Route path='/EditCourse/:id' element={<EditCoursePage/>}/>
+    <Route path='/Courses/:id' element={<CourseDetails/>}/>
     <Route path='*' element={<NotFoundPage/>}/>
   </Routes>
   </>

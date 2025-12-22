@@ -14,7 +14,8 @@ const CourseCard = ({course}) => {
           <IoCodeSlashOutline />
           <h3 className="ml-2">{course.technology}</h3>
         </div>
-        <Link className="bg-indigo-700 hover:bg-indigo-500 text-white rounded text-center block py-2" to="coursedetails.html">Read More</Link>
+        <Link className="bg-indigo-700 hover:bg-indigo-500 text-white rounded text-center block py-2" 
+        to={`/Courses/${course.id}`}>Read More</Link>
       </div>
     </>
   )
