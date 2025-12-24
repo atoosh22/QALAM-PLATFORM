@@ -1,18 +1,18 @@
-{"CourseList":[
+{
+  "CourseList": [
     {
-      "id": "1",
       "title": "HTML & CSS",
       "type": "Front-End",
       "description": "Want to master HTML and CSS? Our hands-on course will guide you through the process of creating stunning, responsive websites. Learn the fundamentals of web design and development, from structuring content with HTML to styling it beautifully with CSS. With real-world projects, you'll gain the skills needed to build professional-grade websites that adapt to any screen size. Start your journey today and unlock the potential of web development!",
+      "duration": "4 Months",
       "technology": "HTML, CSS",
-      "duration": "2 Months",
       "price": "10",
       "instructor": {
         "name": "Mohamed Abdillahi",
-        "description": "An experienced web developer with expertise in crafting responsive and user-friendly websites. Mohamed has a passion for teaching HTML and CSS through practical, real-world projects.",
-        "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
-      }
+        "contactEmail": "Mohamed@gmail.com.com",
+        "contactPhone": "+2523789021"
+      },
+      "id": "1"
     },
     {
       "id": "2",
@@ -25,38 +25,37 @@
       "instructor": {
         "name": "Abdillahi Haji",
         "description": "A skilled database engineer with years of experience in managing complex database systems. Abdillahi specializes in teaching SQL with a focus on practical applications and efficiency.",
-        "contactPhone": "555-555-5555"
+        "contactEmail": "Abdulaahi@gmail.com",
+        "contactPhone": "+252616908765"
       }
     },
     {
-      "id": "3",
       "title": "Node & Express",
       "type": "Back-End",
-      "technology": "Node, Express, Prisma..",
       "description": "Looking to master Node.js and Express? Our comprehensive course will teach you how to build fast, scalable server-side applications using these powerful technologies. Dive into JavaScript on the backend and discover how Express simplifies routing and middleware. You'll learn how to create robust APIs, connect to databases, and handle user authentication. With hands-on exercises, you'll gain the practical experience needed to develop production-ready web apps with Node.js and Express. Start building your backend skills today!",
-      "duration": "3 Months",
+      "duration": "5 Months",
+      "technology": "Node, Express, Prisma..",
       "price": "20",
       "instructor": {
         "name": "Fatima Mouse",
-        "description": "A backend developer with a deep understanding of Node.js and Express. Fatima excels at breaking down complex concepts and guiding students through building scalable backend solutions.",
-        "contactEmail": "contact@dolorsitamet.com",
-        "contactPhone": "555-555-5555"
-      }
+        "contactEmail": "Fatima23@gmail.com",
+        "contactPhone": "+252614876523"
+      },
+      "id": "3"
     },
     {
-      "id": "4",
       "title": "Dart & Flutter",
       "type": "Mobile App",
       "description": "Excited to learn Dart and Flutter? This course will guide you through the process of creating beautiful, high-performance apps for mobile, web, and desktop. With Dart as your programming language and Flutter for building UIs, you'll learn how to develop apps that run seamlessly across platforms. From designing intuitive interfaces to connecting with databases and APIs, you’ll gain a deep understanding of app development. By the end of the course, you'll be able to build and deploy real-world applications, ready to wow users with your skills.",
-      "technology": "Dart, Flutter",
       "duration": "2 Months",
+      "technology": "Dart, Flutter",
       "price": "10",
       "instructor": {
         "name": "Mahdi Moalim",
-        "description": "An accomplished mobile developer with a knack for creating cross-platform apps. Mahdi is dedicated to teaching Dart and Flutter with a focus on real-world development.",
-        "contactEmail": "contact@adipisicingelit.com",
-        "contactPhone": "555-555-5555"
-      }
+        "contactEmail": "Mahdi90@gmail.com",
+        "contactPhone": "+252612567321"
+      },
+      "id": "4"
     },
     {
       "id": "5",
@@ -69,8 +68,8 @@
       "instructor": {
         "name": "Jamma Abdi",
         "description": "A React specialist with extensive experience in developing dynamic, single-page applications. Jamma loves helping students master React's powerful features.",
-        "contactEmail": "contact@consecteturadipisicing.com",
-        "contactPhone": "555-555-5555"
+        "contactEmail": "Jamac@gmail.com",
+        "contactPhone": "+252090610124356"
       }
     },
     {
@@ -84,8 +83,8 @@
       "instructor": {
         "name": "Zamzam Hassan",
         "description": "A NoSQL expert with a deep understanding of MongoDB's capabilities. Zamzam is passionate about helping students design and implement modern database solutions.",
-        "contactEmail": "contact@ipsumlorem.com",
-        "contactPhone": "555-555-5555"
+        "contactEmail": "Zamzam09@gmail.com",
+        "contactPhone": "+25277871345"
       }
     }
   ]

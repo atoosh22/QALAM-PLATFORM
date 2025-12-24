@@ -7,8 +7,8 @@ const Courses = ({ isHome }) => {
   useEffect(() => {
     const fetchCourses = async () => {
       const apiURL = isHome
-        ? 'http://localhost:3000/CourseList?_limit=3'
-        : 'http://localhost:3000/CourseList'
+        ? 'http://localhost:8000/CourseList?_limit=3'
+        : 'http://localhost:8000/CourseList'
 
       try {
         const res = await fetch(apiURL)
